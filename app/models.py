@@ -4,7 +4,7 @@ from app.database import BaseBanco
 
 
 class Livro(BaseBanco):
-    __tablename__ = "livros" 
+    __tablename__ = "livros"
 
     id = Column(Integer, primary_key=True, index=True)
     titulo = Column(String(150), nullable=False)
